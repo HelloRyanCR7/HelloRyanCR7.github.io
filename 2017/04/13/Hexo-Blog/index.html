@@ -96,9 +96,8 @@
 <meta property="og:description" content="1.Hexo简介1.1 什么是 Hexo？Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 Hexo主页：https://hexo.io/zh-cn/ 1.2 为什么要用Hexo？ 因为其他博客框架太烂了 想自己管理博客，不受其他平台的约束  1.3 Hexo适合哪些人使用 有开发基础的程序员（或者你">
 <meta property="og:image" content="http://yoursite.com/2017/04/13/Hexo-Blog/CreateRepository.png">
 <meta property="og:image" content="http://yoursite.com/2017/04/13/Hexo-Blog/SSHKey-1.png">
-<meta property="og:image" content="http://yoursite.com/2017/04/13/Hexo-Blog/SSHKey-2.png">
 <meta property="og:image" content="http://yoursite.com/2017/04/13/Hexo-Blog/repositoryAddress.png">
-<meta property="og:updated_time" content="2017-04-14T03:48:40.000Z">
+<meta property="og:updated_time" content="2017-04-14T03:50:16.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="macOS基于Hexo和github pages搭建静态博客">
 <meta name="twitter:description" content="1.Hexo简介1.1 什么是 Hexo？Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 Hexo主页：https://hexo.io/zh-cn/ 1.2 为什么要用Hexo？ 因为其他博客框架太烂了 想自己管理博客，不受其他平台的约束  1.3 Hexo适合哪些人使用 有开发基础的程序员（或者你">
@@ -384,7 +383,6 @@
 <p>检查终端输出的文件列表中是否已经存在id_rsa.pub 或 id_dsa.pub 文件，如果文件已经存在，那么你可以跳过步骤（2），直接进入步骤（3）。<br><strong>（2）创建一个SSH key</strong><br>在终端输入以下命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-keygen -t rsa -C &quot;your_email@example.com&quot;</div></pre></td></tr></table></figure></p>
 <p>回车，接着会提示你，让你输入文件名，直接回车会创建使用默认文件名的文件（推荐使用默认文件名）；然后会提示你输入两次密码（输入密码之后没有反馈，显示还是空白，但是你确实已经输入了），当然密码也可以不输，直接回车，如果这里没有输入密码，以后提交博客更新的时候就不需要输入密码了。<br><strong>（3）添加SSH key到github</strong><br>经过第(2)步，如果你没有指定文件名（也就是使用的默认文件名），那么你的.ssh文件夹下，应该有一个id_rsa.pub文件了，打开该文件，复制里面的文本。然后登陆github，点击右上角头像右边的三角图标，点击Settings，然后在左边菜单栏点击SSH and GPG keys，点击new ssh key，title 随便填一个，在key 栏填入你复制的内容，点击add ssh key，就可以添加一个ssh key了，如下图：</p>
 <p><img src="/2017/04/13/Hexo-Blog/SSHKey-1.png" alt="添加SSHkey"></p>
-<p><img src="/2017/04/13/Hexo-Blog/SSHKey-2.png" alt="添加SSHkey成功"></p>
 <p><strong>（4）验证SSH key是否配置成功</strong><br>在终端输入以下命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh -T git@github.com</div></pre></td></tr></table></figure></p>
 <p>如果你创建的key没有设密码的话，等待一段时间后提示你</p>
 <blockquote>
