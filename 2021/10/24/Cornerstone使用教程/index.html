@@ -1,0 +1,812 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="版本管理," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="Cornerstone使用教程1.Cornerstone简介Cornerstone是Mac OS系统上的一款SVN管理工具，除了支持基本的SVN功能外，还能够和Xcode，BBEdit，TextMate，Coda等开发工具无缝的集成使用，其时间线功能能够非常方便的查看一个文件的历史改动情况，具有强大的合并，比较功能。 2.使用介绍###（1）添加仓库 点击界面下方的“Add Respository">
+<meta name="keywords" content="版本管理">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Cornerstone使用教程">
+<meta property="og:url" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/index.html">
+<meta property="og:site_name" content="Ryan的博客">
+<meta property="og:description" content="Cornerstone使用教程1.Cornerstone简介Cornerstone是Mac OS系统上的一款SVN管理工具，除了支持基本的SVN功能外，还能够和Xcode，BBEdit，TextMate，Coda等开发工具无缝的集成使用，其时间线功能能够非常方便的查看一个文件的历史改动情况，具有强大的合并，比较功能。 2.使用介绍###（1）添加仓库 点击界面下方的“Add Respository">
+<meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/Cornerstone使用教程/image_1.png">
+<meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/Cornerstone使用教程/image_2.png">
+<meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/Cornerstone使用教程/image_3.png">
+<meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/Cornerstone使用教程/image_4.png">
+<meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/Cornerstone使用教程/image_5.png">
+<meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/Cornerstone使用教程/image_6.png">
+<meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/Cornerstone使用教程/image_7.png">
+<meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/Cornerstone使用教程/image_8.png">
+<meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/Cornerstone使用教程/image_9.png">
+<meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/Cornerstone使用教程/image_10.png">
+<meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/Cornerstone使用教程/image_11.png">
+<meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/Cornerstone使用教程/image_12.png">
+<meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/Cornerstone使用教程/image_13.png">
+<meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/Cornerstone使用教程/image_14.png">
+<meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/Cornerstone使用教程/image_15.png">
+<meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/Cornerstone使用教程/image_16.png">
+<meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/Cornerstone使用教程/image_17.png">
+<meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/Cornerstone使用教程/image_18.png">
+<meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/Cornerstone使用教程/image_19.png">
+<meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/Cornerstone使用教程/image_20.png">
+<meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/Cornerstone使用教程/image_21.png">
+<meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/Cornerstone使用教程/image_22.png">
+<meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/Cornerstone使用教程/image_23.png">
+<meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/Cornerstone使用教程/image_24.png">
+<meta property="og:updated_time" content="2021-10-24T12:48:15.057Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Cornerstone使用教程">
+<meta name="twitter:description" content="Cornerstone使用教程1.Cornerstone简介Cornerstone是Mac OS系统上的一款SVN管理工具，除了支持基本的SVN功能外，还能够和Xcode，BBEdit，TextMate，Coda等开发工具无缝的集成使用，其时间线功能能够非常方便的查看一个文件的历史改动情况，具有强大的合并，比较功能。 2.使用介绍###（1）添加仓库 点击界面下方的“Add Respository">
+<meta name="twitter:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/Cornerstone使用教程/image_1.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2021/10/24/Cornerstone使用教程/"/>
+
+
+
+
+
+  <title> Cornerstone使用教程 | Ryan的博客 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Ryan的博客</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">It's easy if you try.</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2021/10/24/Cornerstone使用教程/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Ryan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ryan的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Cornerstone使用教程
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-10-24T20:38:39+08:00">
+                2021-10-24
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="Cornerstone使用教程"><a href="#Cornerstone使用教程" class="headerlink" title="Cornerstone使用教程"></a>Cornerstone使用教程</h1><h2 id="1-Cornerstone简介"><a href="#1-Cornerstone简介" class="headerlink" title="1.Cornerstone简介"></a>1.Cornerstone简介</h2><p>Cornerstone是Mac OS系统上的一款SVN管理工具，除了支持基本的SVN功能外，还能够和Xcode，BBEdit，TextMate，Coda等开发工具无缝的集成使用，其时间线功能能够非常方便的查看一个文件的历史改动情况，具有强大的合并，比较功能。</p>
+<h2 id="2-使用介绍"><a href="#2-使用介绍" class="headerlink" title="2.使用介绍"></a>2.使用介绍</h2><p>###（1）添加仓库</p>
+<p>点击界面下方的“Add Respository”按钮，也可以点击左下角的“+”按钮，在弹出的菜单中点击“Add Respository”选项</p>
+<p><img src="/2021/10/24/Cornerstone使用教程/./Cornerstone使用教程/image_1.png" alt="image_1"></p>
+<p>根据仓库类型点击对应的配置按钮，填写仓库信息</p>
+<p>HTTP Server配置面板：</p>
+<p><img src="/2021/10/24/Cornerstone使用教程/./Cornerstone使用教程/image_2.png" alt="image_2"></p>
+<p>SVN Server 配置面板：（Tunnel：访问通道，默认不用修改）</p>
+<p><img src="/2021/10/24/Cornerstone使用教程/./Cornerstone使用教程/image_3.png" alt="image_3"></p>
+<p>填写完对应信息后点击“Add”按钮，如果配置信息正确仓库就会添加成功,界面左侧列表会显示添加的仓库</p>
+<p><img src="/2021/10/24/Cornerstone使用教程/./Cornerstone使用教程/image_4.png" alt="image_4"></p>
+<p>(这里项目中已创建好branches、tags、trunk 3个文件夹)</p>
+<h3 id="（2）上传文件"><a href="#（2）上传文件" class="headerlink" title="（2）上传文件"></a>（2）上传文件</h3><p>可以点击界面上方的Import按钮上传，或者直接拖动文件到repository的子文件夹中会弹出选项填写所在位置及名称</p>
+<p><img src="/2021/10/24/Cornerstone使用教程/./Cornerstone使用教程/image_5.png" alt="image_5"></p>
+<p>选择要上传的文件：</p>
+<p><img src="/2021/10/24/Cornerstone使用教程/./Cornerstone使用教程/image_6.png" alt="image_6"></p>
+<p>点击Import按钮后会弹出日志输入框：</p>
+<p><img src="/2021/10/24/Cornerstone使用教程/./Cornerstone使用教程/image_7.png" alt="image_7"></p>
+<p>填写描述信息后点击“Continue”按钮，上传成功后即可在文件夹中看到上传的文件：</p>
+<p><img src="/2021/10/24/Cornerstone使用教程/./Cornerstone使用教程/image_8.png" alt="image_8"></p>
+<h3 id="（3）下载文件"><a href="#（3）下载文件" class="headerlink" title="（3）下载文件"></a>（3）下载文件</h3><p>下载文件分为两种：Export和Check Out</p>
+<p><strong>Export</strong></p>
+<p>Export后的项目不会与repository中的源文件相关联，是一个独立的版本，如果只是下载查看，不希望自己的修改影响到整个项目，最好选择Export。</p>
+<p>选中左侧列表仓库或仓库中的某些文件，点击界面上方的“Export”：</p>
+<p><img src="/2021/10/24/Cornerstone使用教程/./Cornerstone使用教程/image_9.png" alt="image_9"></p>
+<p>在弹出的设置框填写文件名，选择导出位置等，点击Export按钮即可将对应文件下载到本地指定位置：</p>
+<p><img src="/2021/10/24/Cornerstone使用教程/./Cornerstone使用教程/image_10.png" alt="image_10"></p>
+<p><strong>Check Out</strong></p>
+<p>Check Out下来的文件会创建一个working copy，此文件与repository中源文件相关联，当有别人修改或是自己修改时，working copy会显示修改数量，白色数量为别人修改数量，灰色数量为自己修改数量，所以如果你是项目的开发人员，可以选择check out。</p>
+<p>选中左侧列表中的仓库，点击左上角的“Check Out”按钮</p>
+<p><img src="/2021/10/24/Cornerstone使用教程/./Cornerstone使用教程/image_11.png" alt="image_11"></p>
+<p>在弹出的窗口中设置文件名、检出位置等，然后点击“Check Out”按钮即可检出项目：</p>
+<p><img src="/2021/10/24/Cornerstone使用教程/./Cornerstone使用教程/image_12.png" alt="image_12"></p>
+<p>检出项目成功后左侧列表仓库下方会显示本地检出的工作副本：</p>
+<p><img src="/2021/10/24/Cornerstone使用教程/./Cornerstone使用教程/image_13.png" alt="image_13"></p>
+<h3 id="（4）版本管理"><a href="#（4）版本管理" class="headerlink" title="（4）版本管理"></a>（4）版本管理</h3><p>作为开发人员，我们需要对代码进行版本控制，首先需要将代码check out到本地，当我们在working copy修改、添加、删除文件后，点击界面上方的Commit按钮即可提交代码：</p>
+<p><img src="/2021/10/24/Cornerstone使用教程/./Cornerstone使用教程/image_14.png" alt="image_14"></p>
+<p>点击Commit后会打开提交窗口，这里可以添加变更描述，确认变更文件：</p>
+<p><img src="/2021/10/24/Cornerstone使用教程/./Cornerstone使用教程/image_15.png" alt="image_15"></p>
+<p>需要注意新添加的文件如果需要提交到仓库，需要先<code>add</code>再<code>commit</code>。</p>
+<p><strong>*丢弃修改</strong></p>
+<p>如果修改后的文件又想恢复到修改之前的状态，可以选中要恢复的文件点击界面上方的<code>Revert</code>按钮按提示操作。</p>
+<p><strong>*文件标识</strong></p>
+<p>我们可以看到有些文件后面会有一些标识，比如A、M、D、？、C等，它们表示文件的不同状态：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">A：add，新增</div><div class="line">C：conflict，冲突</div><div class="line">D：<span class="keyword">delete</span>，删除</div><div class="line">M：modify，本地已经修改</div><div class="line">G：modify and merGed，本地文件修改并且和服务器的进行合并</div><div class="line">?：未跟踪文件</div><div class="line">U：update，从服务器更新</div><div class="line">R：replace，从服务器替换</div><div class="line">I：ignored，忽略</div></pre></td></tr></table></figure>
+<p><strong>*冲突文件</strong></p>
+<p>需要注意的是C标识的文件，通常是由于不同开发者同时修改了同一行代码然后<code>commit</code>到<code>svn</code>产生的。</p>
+<p>原则上同一组开发人员最好不要在同一文件中进行操作，但有时候必须去其他文件中进行操作，或者是误操作，如果同时多人在同一文件的同一位置修改代码，后提交的人会出现版本冲突文件，一般会生成三个同样名称不同后缀的文件:</p>
+<p>​    <code>fileName.mine,  fileName.rxxx,  fimeName.rxxx</code></p>
+<p>其中<code>.mine</code>文件是本人所做修改，两个<code>.rxxx</code>文件（<code>xxx</code>为数字），数字较小的为更改前的文件，较大的为更改后的文件，在文件中会有<code>&lt;&lt;&lt;&lt; mine .rxxx</code>和<code>&gt;&gt;&gt;&gt;&gt;</code>等字样包含起来的代码，即冲突的地方，此时请和修改此处代码的同事讨论或自己删除某部分修改文件后进行调试，修复文件。</p>
+<p><strong>*注意事项：</strong></p>
+<p>1.先更新(<code>update</code>)后提交，当你看到你<code>check out</code>下来的项目有白色圈时，说明有人已经提交了代码，这个时候，你应该先<code>update</code>一下，直至<code>working copy</code>不再显示白色圈，然后运行一下项目，确保项目没有冲突或者丢失的文件，然后在<code>commit</code>自己的代码，否则会造成项目中出现多处冲突或者覆盖掉别人提交的代码。</p>
+<p>2.在项目开发阶段，最好每次开发完一个独立的功能，或者在测试阶段，解决一个<code>bug</code>之后再提交代码到<code>svn</code>，不要连续多次重复提交，造成版本过多过杂。并且每次提交时务必填写提交信息，方便查看历史版本。</p>
+<p>###（5）查看变更记录</p>
+<p>每一次提交会创建一个新版本，在repository中会保存所有历史版本，可通过修改人及提交信息进行检索版本，所以用svn开发可以很好的控制项目出现不可解决及未知<code>bug</code>时代码的修复问题。</p>
+<p>查看变更记录可以选择对应仓库点击右下角的Log按钮：</p>
+<p><img src="/2021/10/24/Cornerstone使用教程/./Cornerstone使用教程/image_16.png" alt="image_16"></p>
+<p>变更信息：</p>
+<p><img src="/2021/10/24/Cornerstone使用教程/./Cornerstone使用教程/image_17.png" alt="image_17"></p>
+<h3 id="（6）svn-ignores的使用"><a href="#（6）svn-ignores的使用" class="headerlink" title="（6）svn ignores的使用"></a>（6）svn ignores的使用</h3><p>在项目中引入第三库，在本地运行项目，发现没有任何问题，但是提交到<code>svn</code>，其他人<code>update</code>之后，在运行项目发现报错，很有可能是静态文件没有上传到<code>svn</code>造成的。</p>
+<p>点击菜单栏Cornerstone -&gt;Preferences：</p>
+<p><img src="/2021/10/24/Cornerstone使用教程/./Cornerstone使用教程/image_18.png" alt="image_18"></p>
+<p>选中弹出窗口的Subversion选项：</p>
+<p><img src="/2021/10/24/Cornerstone使用教程/./Cornerstone使用教程/image_19.png" alt="image_19"></p>
+<p>可以看到这里默认勾选了Use default global ignores选项，版本管理会忽略方框中指定类型的文件。我们可以根据项目的实际情况，取消勾选<strong>Use default global ignores</strong>选项，自行指定需要忽略的文件。</p>
+<p>###（7）创建分支和Tag</p>
+<p><code>Subversion</code> 有一个很标准的目录结构:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">PROJECT</div><div class="line"></div><div class="line">├── trunk</div><div class="line"></div><div class="line">├── branches</div><div class="line"></div><div class="line">└── tags</div></pre></td></tr></table></figure>
+<ol>
+<li><p><code>trunk</code> 为主开发目录</p>
+<p>中文翻译为“主干”的意思，在项目运作过程中，日常的开发和管理资料都在此目录中进行维护和更新。</p>
+</li>
+<li><p><code>branches</code> 为分支开发目录</p>
+<p>中文意思为“分支”，在项目运作过程中，存放阶段性成果（版本），这些阶段性成果是可维护（包括为客户定制化的版本）。</p>
+</li>
+<li><p><code>tags</code> 为存档目录</p>
+<p>中文意思为“标签”，此目录为一些阶段性成果进行存档。为<strong>只读目录</strong>，不允许进行修改。</p>
+</li>
+</ol>
+<p><strong>创建Branch</strong></p>
+<p>首先选择项目所在的远程仓库，然后选择要创建分支的项目，右键选择<code>branch</code>或者点击界面上方的<code>Branch</code>:</p>
+<p><img src="/2021/10/24/Cornerstone使用教程/./Cornerstone使用教程/image_20.png" alt="image_20"></p>
+<p>设置分支名称和位置等信息，点击Create Branch：</p>
+<p><img src="/2021/10/24/Cornerstone使用教程/./Cornerstone使用教程/image_21.png" alt="image_21"></p>
+<p>填写描述信息，点击Continue：</p>
+<p><img src="/2021/10/24/Cornerstone使用教程/./Cornerstone使用教程/image_22.png" alt="image_22"></p>
+<p>创建Tag的方式是类似的，选择项目所在的远程仓库，然后选择要创建分支的项目，右键选择<code>tag</code>或者点击界面上方的<code>tag</code>按钮。</p>
+<h3 id="（8）-合并分支"><a href="#（8）-合并分支" class="headerlink" title="（8） 合并分支"></a>（8） 合并分支</h3><p>如果需要将不同的分支代码合并，需要先将目标代码（合并后所在的分支）check out到本地，点击界面上方的<code>merge</code>按钮：</p>
+<p><img src="/2021/10/24/Cornerstone使用教程/./Cornerstone使用教程/image_23.png" alt="image_23"></p>
+<p> 点击<code>Sychronize Branch</code>，选择被合并的项目(<code>merge from</code>，哪个分支的变更要合并到当前分支):</p>
+<p><img src="/2021/10/24/Cornerstone使用教程/./Cornerstone使用教程/image_24.png" alt="image_24"></p>
+<p>点击<code>Merge Changes</code>按钮，Mefge from分支的变更就会合并到本地，可以进行修改、解决冲突等操作后再<code>commit</code>代码到仓库。</p>
+<h2 id="参考内容"><a href="#参考内容" class="headerlink" title="参考内容"></a>参考内容</h2><p>本文内容通过自行创建SVN仓库，实际操作截图及参考网络文章编写，主要参考内容包括：</p>
+<p><a href="https://www.jianshu.com/p/7f5c019c528b" target="_blank" rel="external">CornerStone的使用</a></p>
+<p><a href="https://blog.csdn.net/sinat_32526807/article/details/52510988" target="_blank" rel="external">cornerstone创建分支与合并代码方法整理</a></p>
+<p><a href="https://blog.csdn.net/u011363981/article/details/52037231" target="_blank" rel="external">Mac下的SVN客户端工具Cornerstone使用教程</a></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/版本管理/" rel="tag"># 版本管理</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/04/24/characteristic/" rel="prev" title="char与signed char, unsigned char的区别">
+                char与signed char, unsigned char的区别 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.png"
+               alt="Ryan" />
+          <p class="site-author-name" itemprop="name">Ryan</p>
+           
+              <p class="site-description motion-element" itemprop="description">An iOS developer.</p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">标签</span>
+              
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Cornerstone使用教程"><span class="nav-text">Cornerstone使用教程</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-Cornerstone简介"><span class="nav-text">1.Cornerstone简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-使用介绍"><span class="nav-text">2.使用介绍</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#（2）上传文件"><span class="nav-text">（2）上传文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（3）下载文件"><span class="nav-text">（3）下载文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（4）版本管理"><span class="nav-text">（4）版本管理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（6）svn-ignores的使用"><span class="nav-text">（6）svn ignores的使用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（8）-合并分支"><span class="nav-text">（8） 合并分支</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考内容"><span class="nav-text">参考内容</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Ryan</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Muse
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
