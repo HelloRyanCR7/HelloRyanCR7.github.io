@@ -118,7 +118,7 @@
 <meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/image_22.png">
 <meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/image_23.png">
 <meta property="og:image" content="http://yoursite.com/2021/10/24/Cornerstone使用教程/image_24.png">
-<meta property="og:updated_time" content="2021-10-24T12:54:57.245Z">
+<meta property="og:updated_time" content="2021-10-24T13:21:58.911Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Cornerstone使用教程">
 <meta name="twitter:description" content="Cornerstone使用教程1.Cornerstone简介Cornerstone是Mac OS系统上的一款SVN管理工具，除了支持基本的SVN功能外，还能够和Xcode，BBEdit，TextMate，Coda等开发工具无缝的集成使用，其时间线功能能够非常方便的查看一个文件的历史改动情况，具有强大的合并，比较功能。 2.使用介绍（1）添加仓库点击界面下方的“Add Respository”按钮，">
@@ -409,8 +409,7 @@
 <p><strong>*注意事项：</strong></p>
 <p>1.先更新(<code>update</code>)后提交，当你看到你<code>check out</code>下来的项目有白色圈时，说明有人已经提交了代码，这个时候，你应该先<code>update</code>一下，直至<code>working copy</code>不再显示白色圈，然后运行一下项目，确保项目没有冲突或者丢失的文件，然后在<code>commit</code>自己的代码，否则会造成项目中出现多处冲突或者覆盖掉别人提交的代码。</p>
 <p>2.在项目开发阶段，最好每次开发完一个独立的功能，或者在测试阶段，解决一个<code>bug</code>之后再提交代码到<code>svn</code>，不要连续多次重复提交，造成版本过多过杂。并且每次提交时务必填写提交信息，方便查看历史版本。</p>
-<p>###（5）查看变更记录</p>
-<p>每一次提交会创建一个新版本，在repository中会保存所有历史版本，可通过修改人及提交信息进行检索版本，所以用svn开发可以很好的控制项目出现不可解决及未知<code>bug</code>时代码的修复问题。</p>
+<h3 id="（5）查看变更记录"><a href="#（5）查看变更记录" class="headerlink" title="（5）查看变更记录"></a>（5）查看变更记录</h3><p>每一次提交会创建一个新版本，在repository中会保存所有历史版本，可通过修改人及提交信息进行检索版本，所以用svn开发可以很好的控制项目出现不可解决及未知<code>bug</code>时代码的修复问题。</p>
 <p>查看变更记录可以选择对应仓库点击右下角的Log按钮：</p>
 <p><img src="/2021/10/24/Cornerstone使用教程/image_16.png" alt="image_16"></p>
 <p>变更信息：</p>
@@ -421,8 +420,7 @@
 <p>选中弹出窗口的Subversion选项：</p>
 <p><img src="/2021/10/24/Cornerstone使用教程/image_19.png" alt="image_19"></p>
 <p>可以看到这里默认勾选了Use default global ignores选项，版本管理会忽略方框中指定类型的文件。我们可以根据项目的实际情况，取消勾选<strong>Use default global ignores</strong>选项，自行指定需要忽略的文件。</p>
-<p>###（7）创建分支和Tag</p>
-<p><code>Subversion</code> 有一个很标准的目录结构:</p>
+<h3 id="（7）-创建分支和Tag"><a href="#（7）-创建分支和Tag" class="headerlink" title="（7） 创建分支和Tag"></a>（7） 创建分支和Tag</h3><p><code>Subversion</code> 有一个很标准的目录结构:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">PROJECT</div><div class="line"></div><div class="line">├── trunk</div><div class="line"></div><div class="line">├── branches</div><div class="line"></div><div class="line">└── tags</div></pre></td></tr></table></figure>
 <ol>
 <li><p><code>trunk</code> 为主开发目录</p>
@@ -631,7 +629,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Cornerstone使用教程"><span class="nav-text">Cornerstone使用教程</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-Cornerstone简介"><span class="nav-text">1.Cornerstone简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-使用介绍"><span class="nav-text">2.使用介绍</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#（1）添加仓库"><span class="nav-text">（1）添加仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（2）上传文件"><span class="nav-text">（2）上传文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（3）下载文件"><span class="nav-text">（3）下载文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（4）版本管理"><span class="nav-text">（4）版本管理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（6）svn-ignores的使用"><span class="nav-text">（6）svn ignores的使用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（8）-合并分支"><span class="nav-text">（8） 合并分支</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考内容"><span class="nav-text">参考内容</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Cornerstone使用教程"><span class="nav-text">Cornerstone使用教程</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-Cornerstone简介"><span class="nav-text">1.Cornerstone简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-使用介绍"><span class="nav-text">2.使用介绍</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#（1）添加仓库"><span class="nav-text">（1）添加仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（2）上传文件"><span class="nav-text">（2）上传文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（3）下载文件"><span class="nav-text">（3）下载文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（4）版本管理"><span class="nav-text">（4）版本管理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（5）查看变更记录"><span class="nav-text">（5）查看变更记录</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（6）svn-ignores的使用"><span class="nav-text">（6）svn ignores的使用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（7）-创建分支和Tag"><span class="nav-text">（7） 创建分支和Tag</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（8）-合并分支"><span class="nav-text">（8） 合并分支</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考内容"><span class="nav-text">参考内容</span></a></li></ol></li></ol></div>
             
 
           </div>
